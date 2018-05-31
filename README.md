@@ -37,9 +37,11 @@ Doing some research, MHN stands for modern honey net. It is an open sourced opti
  
 ## MILESTONE 4
  
-Purpose: At this point, we have an admin machine and a honeypot machine, but no running services or applications. Now, we need to install the honeypot framework to our honeypot machine. MHN has done fairly well to intgrate their installation and initialization into the GCF. There are a series of instructions to install the MGN specification (we are using Dinoaea in this scenario). We use the wget command to download the honeypot framework, we learned about wget in the labs which is cool. Once that is said and done, the honeypot 
+Purpose: At this point, we have an admin machine and a honeypot machine, but no running services or applications. Now, we need to install the honeypot framework to our honeypot machine. MHN has done fairly well to intgrate their installation and initialization into the GCF. There are a series of instructions to install the MGN specification (we are using Dinoaea in this scenario). We use the wget command to download the honeypot framework, we learned about wget in the labs which is cool. Once that is said and done, the honeypot can communicate with our mhn admin console and give updates on its progress and status. 
  
 ## MILESTONE 5
  
-Purpose:
+Purpose: Now we can do a simple port scan from outside our honeypot (assuming you remember the IP). You'll find some really fun ports open, and this is intentional. Checking the admin console shows that attacks from yourself and accross the internet. Now, if they are just port scans, then it may just be harmless. However, it is possible that third party bad actors could be trying to map an attack vector. Especially if you see more advanced attacks like ICMP requests of various flavors and requests for SSH, telnet, VNC, etc. 
+
+These milestone sysnopsyes were the best I could do to follow along and learn about the honeypot process without dumping another 6 hours into trying to get the console installed. Hopefully, I can get some redemption of credit for this. 
  
